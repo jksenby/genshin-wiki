@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lore | Fandom Genshin Impact</title>
+  <link rel="icon" href="/resoures/images/icons8-genshin-impact-logo-64.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="icon"
@@ -15,16 +16,6 @@
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
-      rel="stylesheet"
     />
   </head>
   <body>
@@ -54,7 +45,7 @@
       <li><a href="login.html" class="nav-link px-2">Login</a></li>
     </ul>
     <input type="text" id="searchInput" placeholder="Search">
-    <div id="searchResults"></div>
+    <div id="searchResults"></div>  
   </header>
   <main>
     <div class="container-fluid text-center">
@@ -70,16 +61,16 @@
                   <div class="col-sm text-start">
                     <p>Lore is the catch-all term for story, world-building, and anything in the game that is not related to Game Systems. Various aspects of lore are usually analyzed to expand upon the knowledge of the in-game universe.</p>
                     <div class="card" style="width: 18rem;">
-                      <span class="card-header">Key events in lore</span>
+                      <span class="card-header"><button style="outline: none; border: none;" id="context">Key events in lore</button></span>
                       <div class="card-body">
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">The First Throne</li>
-                          <li class="list-group-item">Selestia</li>
-                          <li class="list-group-item">Guily Assembly</li>
-                          <li class="list-group-item">The Archon War</li>
-                          <li class="list-group-item">Sibling's Journey</li>
-                          <li class="list-group-item">Khaenri-ah Cataclysm</li>
-                          <li class="list-group-item">Nowadays</li>
+                        <ul class="list-group list-group-flush" id="list">
+                          <li class="list-group-item" id="thefirst">The First Throne</li>
+                          <li class="list-group-item" id="selestia">Selestia</li>
+                          <li class="list-group-item" id="assembly">Guily Assembly</li>
+                          <li class="list-group-item" id="war">The Archon War</li>
+                          <li class="list-group-item" id="journey">Sibling's Journey</li>
+                          <li class="list-group-item" id="cataclysm">Khaenri-ah Cataclysm</li>
+                          <li class="list-group-item" id="nowadays">Nowadays</li>
                         </ul>
                       </div>
                     </div>
@@ -130,7 +121,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid text-start">
+            <div class="container-fluid text-start" id="loreThrone">
             <h1 style="margin-left: 10px;">The First Throne</h1>  
             <hr class="featurette-divider">
             <i>All the events described below related to the Ancient Teivat took place at an unknown time in the past, preceding all dated events, including the birth of Morax more than six thousand years ago.</i>
@@ -150,7 +141,7 @@
                 With the appearance of the throne of eternity in heaven, the world was created anew. The original may have been Ufanet. He had wings and a crown, he was born from an egg and was androgynous by nature. But to create a world, the eggshell must break. However, Phaneth, the Primordial One, used an eggshell to separate the "universe" and the "microcosm of the world".
                 Fanet, the Primordial One, created the shining shadows of himself, and there were four of them</h6>
           </div>
-          <div class="container-fluid text-start mt-5">
+          <div class="container-fluid text-start mt-5" id="loreSelestia">
             <h1 style="margin-left: 10px;">Selestia</h1>  
             <hr class="featurette-divider">
               <p style="display: flex; justify-content: center;">
@@ -167,7 +158,7 @@ The second throne appeared in heaven, and war broke out again, as it was at the 
               </h6>
               <h6>We don't know who won - Fanet or the Second Who Came but whoever emerged victorious and took control of the heavens forbade knowledge of the history that predated this war</h6>
           </div>
-          <div class="container-fluid text-start mt-5">
+          <div class="container-fluid text-start mt-5" id="loreAssembly">
             <h1 style="margin-left: 10px;">Guily Assembly</h1>  
             <hr class="featurette-divider">
               <p style="display: flex; justify-content: center;">
@@ -186,7 +177,7 @@ The second throne appeared in heaven, and war broke out again, as it was at the 
               <h6>3700 years before GE : Date of foundation of Li Yue. At the same time, the Lord of the Stone signed contracts with Adepts to protect the territories of Li Yue.</h6>
               <h6>? before G.E : It is not known exactly when Geo Archon and Archon Dust met, but they became good friends. Their nations united for common prosperity in the fertile Guli Valley under the patronage of two Archons. It is known that at that time there were fertile fields of this people on the site of the Reed Islands, and on the borders of their territories the Guardian of Clouds and the Archon of Dust erected ballistae.</h6>
             </div>
-            <div class="container-fluid text-start mt-5">
+            <div class="container-fluid text-start mt-5" id="loreWar">
               <h1 style="margin-left: 10px;">The Archon War</h1>  
               <i>This is too large event, and i can't put everything here so i just tell about the key moments</i>
               <hr class="featurette-divider">
@@ -209,7 +200,7 @@ The second throne appeared in heaven, and war broke out again, as it was at the 
                 <h4>The End of The Archon War</h4>
                 <h6>2000 years before G. E. : After the centuries-old wars, only seven Archons remained out of the multitude. They divided the lands and built states that still exist today. However, in the world of Teivat, even the Gods are mortal, and the composition of the Seven has changed more than once over two thousand years. Only Geo and Anemo Archons have remained the same since those times. Those gods who could not come to terms with the orders of the Seven fled across the Dark Sea – to distant islands where recognized Archons have no power.</h6>
               </div>
-              <div class="container-fluid text-start mt-5">
+              <div class="container-fluid text-start mt-5" id="loreJourney">
                 <h1 style="margin-left: 10px;">Sibling's Journey</h1>  
                 <hr class="featurette-divider">
                   <p style="display: flex; justify-content: center;">
@@ -227,7 +218,7 @@ The second throne appeared in heaven, and war broke out again, as it was at the 
                   <h6>The Traveler's sibling wakes up first and learned more about Teyvat. The sibling witnesses the cataclysm and the Gods destroying Khaenri'ah. They rush back to their impact-point and wake up The Traveler, showing them the destruction that's being wrought in Khaenri'ah</h6>
                   <h6>Due to the Traveler's sibling's journey with Dainsleif taking place after the cataclysm, it is presumed that the sibling here has only briefly explored Teyvat before encountering the cataclysm</h6>
                 </div>
-                <div class="container-fluid text-start mt-5">
+                <div class="container-fluid text-start mt-5" id="loreCataclysm">
                   <h1 style="margin-left: 10px;">Khaenri-ah Cataclysm</h1>  
                   <hr class="featurette-divider">
                     <p style="display: flex; justify-content: center;">
@@ -245,7 +236,7 @@ The second throne appeared in heaven, and war broke out again, as it was at the 
                       The Kingdom of Khaenri'ah is destroyed by the Heavenly Principles, causing the fall of the Eclipse Dynasty and the entire civilization. Khaenri'ah's destruction causes a devastating ripple effect.
                       The Seven become involved in Khaenri'ah after the Abyss' invasion of Teyvat</h6>
                   </div> 
-                  <div class="container-fluid text-start mt-5">
+                  <div class="container-fluid text-start mt-5" id="loreNowadays ">
                     <h1 style="margin-left: 10px;">Nowadays</h1>  
                     <hr class="featurette-divider">
                       <p style="display: flex; justify-content: center;">

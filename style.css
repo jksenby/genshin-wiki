@@ -24,6 +24,16 @@
     width: 350px;
     border: 2px solid var(--grey);
 }
+.wrapper_signed {
+  background-color: var(--white);
+    padding: 20px;
+    height: 400px;
+    width: 350px;
+    border: 2px solid var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
 .wrapper h3{
     text-align: center;
 }
@@ -413,4 +423,24 @@ td {
   border: 2px solid var(--abyss );
   margin-bottom: 20px;
   padding: 30px;
+} 
+.scrolling-text {
+  position: relative;
+  white-space: nowrap;
+  animation: scroll-left 5s linear infinite;
+  font-size: larger;
+  font-weight: 500;
+  font-family: 'genshin-impact';
+  color: var(--grey);
+}
+
+@keyframes scroll-left {
+  from {
+   left: 50%;
+   width: 100%; 
+  }
+  to {
+    left: 0%;
+    width: 100%;
+  }
 }

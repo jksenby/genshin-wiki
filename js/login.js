@@ -24,5 +24,13 @@ $("form").on("submit", function (e) {
     $("#login").val("");
     $("#password").val("");
     $("#verification").val("");
+    document.querySelector(".wrapper").innerHTML =
+      '<div class="scrolling-text">Congratulations! </div>';
+    document.querySelector(".wrapper").classList.add("wrapper_signed");
+    function scrollleft() {
+      document.getElementById("scrolling-text").style.left = "100%";
+      setTimeout(scrollleft, 1);
+    }
+    scrollleft();
   }
 });
