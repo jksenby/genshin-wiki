@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lore | Fandom Genshin Impact</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="icon"
+      href="/resoures/images/icons8-genshin-impact-logo-64.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+    >
+    <a href="/index.html" style="color: black; text-decoration: none;;"><svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+      <img src="/resoures/images/icons8-genshin-impact-logo-64.png" alt="" width="50" height="50">
+    </svg> </a>
+    <div class="col-md-3 mb-2 mb-md-0">
+      <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+      </a>
+    </div>
+    <span style="font-size: 24px; text-transform: uppercase; font-weight: bold;"><a href="/index.html" style="color: black; text-decoration: none;;">Fandom Genshin Impact</a></span>
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="/index.html" class="nav-link px-2 link-secondary">Main</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          More...
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/regions.html">Regions</a></li>
+          <li><a class="dropdown-item" href="/lore.html">Lore</a></li>
+          <li><a class="dropdown-item" href="/music.html">Media</a></li>
+        </ul>
+      </li>
+      <li><a href="/login.html" class="nav-link px-2">Login</a></li>
+    </ul>
+    <input type="text" id="searchInput" placeholder="Search">
+    <div id="searchResults"></div>
+  </header>
+  <main>
+    <div class="container-fluid text-center">
+        <div class="row content">
+          <div class="col-sm-1 sidenav"
+            style="background-image: url(/resoures/images/1161810.jpg); background-position: left center; background-attachment:fixed; background-repeat: repeat-y; background-size: contain;">
+          </div>
+          <div class="col-sm-10 text-left p-xxl-5" style="background-color:white;">
+            <h1 style="text-align: start; margin-left: 10px;">Lore | Genshin Impact</h1> 
+            <hr class="featurette-divider">
+              <div class="col-sm" style="border: 2px solid black; margin: 20px; padding: 70px;">
+                <div class="row">
+                  <div class="col-sm text-start">
+                    <p>Lore is the catch-all term for story, world-building, and anything in the game that is not related to Game Systems. Various aspects of lore are usually analyzed to expand upon the knowledge of the in-game universe.</p>
+                    <div class="card" style="width: 18rem;">
+                      <span class="card-header">Key events in lore</span>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">The First Throne</li>
+                          <li class="list-group-item">Selestia</li>
+                          <li class="list-group-item">Guily Assembly</li>
+                          <li class="list-group-item">The Archon War</li>
+                          <li class="list-group-item">Sibling's Journey</li>
+                          <li class="list-group-item">Khaenri-ah Cataclysm</li>
+                          <li class="list-group-item">Nowadays</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p class="mt-3">The lore of the game is very extensive, so most likely I will not be able to fit everything here</p>
+                  </div>
+                  <div class="col-sm" style="display: flex; justify-content: center ;">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./resoures/images/arhonty7.webp" class="card-img-top" alt="archons">
+                      <div class="card-body">
+                        <h5 class="card-title">Lore</h5>
+                        <p class="card-text">It is hard to explain entire lore of this game in one page, so it is shortened version</p>
+                        <button class="btn btn-primary" id="openModal">See the context of the page</button>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">The key events in the lore</h1>
+                                <button type="button" class="btn-close" id="closeModal1"></button>
+                              </div>
+                              <div class="modal-body text-start">
+                                <ul style="list-style-type: none;">
+                                  <li class="toclevel-1 tocsection-1"><span class="tocnumber">1</span> <span class="toctext">Ancient Teyvat</span>
+                                  <ul style="list-style-type: none;">
+                                  <li class="toclevel-2 tocsection-2"><span class="tocnumber">1.1</span> <span class="toctext">Seven Lords</span></li>
+                                  <li class="toclevel-2 tocsection-3"><span class="tocnumber">1.2</span> <span class="toctext">First Throne</span></li>
+                                  </ul>
+                                  </li>
+                                  <li class="toclevel-1 tocsection-4"><span class="tocnumber">2</span> <span class="toctext">Selestia and first civilization</span></li>
+                                  <li class="toclevel-1 tocsection-5"><span class="tocnumber">3</span> <span class="toctext">Guily Assemply</span></li>
+                                  <li class="toclevel-1 tocsection-6"><span class="tocnumber">4</span> <span class="toctext">The King of Tower and The King of the North windes</span></li>
+                                  <li class="toclevel-1 tocsection-7"><span class="tocnumber">5</span> <span class="toctext">Ancient Gods and Adepts</span></li>
+                                  <li class="toclevel-1 tocsection-8"><span class="tocnumber">6</span> <span class="toctext">The Archon War in Mondstadt</span></li>
+                                  <li class="toclevel-1 tocsection-9"><span class="tocnumber">7</span> <span class="toctext">The Archon War in Liyue</span></li>
+                                  <li class="toclevel-1 tocsection-10"><span class="tocnumber">8</span> <span class="toctext">The Archon War in Inazuma</span></li>
+                                  <li class="toclevel-1 tocsection-11"><span class="tocnumber">9</span> <span class="toctext">The End of the Archon War</span></li>
+                                  <li class="toclevel-1 tocsection-12"><span class="tocnumber">10</span> <span class="toctext">Khaenri-ah Cataclysm</span></li>
+                                  <li class="toclevel-1 tocsection-13"><span class="tocnumber">11</span> <span class="toctext">The beginning of the game</span></li>
+                                  </ul>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" id="closeModal2">Understood</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid text-start">
+            <h1 style="margin-left: 10px;">The First Throne</h1>  
+            <hr class="featurette-divider">
+            <i>All the events described below related to the Ancient Teivat took place at an unknown time in the past, preceding all dated events, including the birth of Morax more than six thousand years ago.</i>
+              <p style="display: flex; justify-content: center;">
+                <img style="width: 100%; 
+              height: 330px; 
+              object-fit: cover; 
+              object-position: bottom;
+              max-width: 640px; " src="./resoures/images/scale_1200.jpg" alt="fanet">
+              </p>
+              <h4>The Seven Lords</h4>
+              <h6>
+                ? Before G.E.: Ancient Teivat is inhabited mainly by dragons and Vishaps, who are the masters of the world.
+              </h6>
+              <h4>The First Throne</h4>
+              <h6>The Primordial One, also known as the Throne of Eternity in heaven, arrived in Tivat from another world. The Primordial One fought seven terrible sovereigns, the dragon lords of the old world, thereby establishing his power in Teivat.
+                With the appearance of the throne of eternity in heaven, the world was created anew. The original may have been Ufanet. He had wings and a crown, he was born from an egg and was androgynous by nature. But to create a world, the eggshell must break. However, Phaneth, the Primordial One, used an eggshell to separate the "universe" and the "microcosm of the world".
+                Fanet, the Primordial One, created the shining shadows of himself, and there were four of them</h6>
+          </div>
+          <div class="container-fluid text-start mt-5">
+            <h1 style="margin-left: 10px;">Selestia</h1>  
+            <hr class="featurette-divider">
+              <p style="display: flex; justify-content: center;">
+                <img style="width: 100%; 
+              height: 330px; 
+              object-fit: cover; 
+              object-position: bottom;
+              max-width: 640px; " src="./resoures/images/c4f7f03a005f384d651ba0ae33ebc359_6583304040376948098.webp" alt="fanet">
+              </p>
+              <h4>Selestia - The Second Throne</h4>
+              <h6>
+                ? before G.E.: The Year of mourning
+The second throne appeared in heaven, and war broke out again, as it was at the creation of the world. On that day, the heavens collapsed and the earth split apart. The ancestors of the Encanomians and their land, Encanomia, sank into the sea. The era of darkness has come
+              </h6>
+              <h6>We don't know who won - Fanet or the Second Who Came but whoever emerged victorious and took control of the heavens forbade knowledge of the history that predated this war</h6>
+          </div>
+          <div class="container-fluid text-start mt-5">
+            <h1 style="margin-left: 10px;">Guily Assembly</h1>  
+            <hr class="featurette-divider">
+              <p style="display: flex; justify-content: center;">
+                <img style="width: 100%; 
+              height: 330px; 
+              object-fit: cover; 
+              object-position: bottom;
+              max-width: 640px; " src="./resoures/images/maxresdefault.jpg" alt="fanet">
+              </p>
+              <h4>The Dust Archon - Guizhong</h4>
+              <h6>
+                ? before G.E.: In ancient times, when people united for common prosperity, the Archon of Dust, Gui Zhong, descended to them. She gave people the covenants by which they lived. Their state was huge: from the north of Tian Heng Mountain to the Stone Gate. At the same time, the first roads were laid.
+              </h6>
+              <h4>The Geo Archon - Zhongli</h4>
+              <h6>Approximately before 6000 GE: Birth of Geo Archon, later known as the Lord of the Stone</h6>
+              <h6>3700 years before GE : Date of foundation of Li Yue. At the same time, the Lord of the Stone signed contracts with Adepts to protect the territories of Li Yue.</h6>
+              <h6>? before G.E : It is not known exactly when Geo Archon and Archon Dust met, but they became good friends. Their nations united for common prosperity in the fertile Guli Valley under the patronage of two Archons. It is known that at that time there were fertile fields of this people on the site of the Reed Islands, and on the borders of their territories the Guardian of Clouds and the Archon of Dust erected ballistae.</h6>
+            </div>
+            <div class="container-fluid text-start mt-5">
+              <h1 style="margin-left: 10px;">The Archon War</h1>  
+              <i>This is too large event, and i can't put everything here so i just tell about the key moments</i>
+              <hr class="featurette-divider">
+                <p style="display: flex; justify-content: center;">
+                  <img style="width: 100%; 
+                height: 330px; 
+                object-fit: cover; 
+                object-position: bottom;
+                max-width: 640px; " src="./resoures/images/arhonty7.webp" alt="fanet">
+                </p>
+                <h4>The Archon War in Mondstadt</h4>
+                <h6>
+                  Approximately 2600 years before G. E. : The beginning of the war in Mondstadt. People are tired of the tyranny of Decarabian, and his beloved was no exception. One of his loyal servants gathered his clan and fled outside the ancient capital into the arms of eternal snows and blizzards. But life on the barren lands was impossible. Then the daughter of the clan chief, Gunnhild, begged the winds for mercy. Her prayer reached the little wind spirit, Barbatos, and he helped the Gunnhildra clan survive. Later, when Barbatos challenged the despot Anemo Archon, Gunnhildra and her people were among those who supported the struggle for the freedom of Mondstadt.            </h6>
+                <h6>2600 years berfore GE: One day the wind spirit, Barbatos, met a young man who lived under the tyranny of an Anemo Archon. The young man was a bard who wanted to compose songs and play the lyre. He was one of those who raised resistance, the war for freedom broke out. Many rebelled against the Decarabian order. As a result, the old Anemo Archon was defeated, and Barbatos replaced him. But the young bard, who became a friend of the wind spirit, died in the battle for his ideals. After becoming the new Archon, Barbados assumed the form of his friend so that his lyre would never cease.</h6>
+                <h4>The Archon War in Liyue</h4>
+                <h6>2500 years before GE : While wars raged throughout Taiwan, Li Yue's keepers were concerned about the safety of their lands and inhabitants. According to legends, the Lord of the Stone slaughtered every hostile god with huge spears. The adepts, including Guan Yu, fought on the side of the Lord of the Stone. Many creatures, now considered fabulous, were summoned by the Lord of the Stone to protect the territories of Li Yue. Ordinary people also participated in the war, for example, brigades of Milliliters. The battle in the valley of Guli was terrible, in addition to many losses, Li Yue's land was also deprived of the Archon of Dust.</h6>
+                <h6>? Before G. E.: The Geo Archon called the Yaksa to fight demons, creatures defiled by the blood of the former gods of Li Yue. There were five Ajax: Fouche, Fa Nan, Inda, Mi Nu, Alatus. Each of them was awarded the power of one of the elements that helped them in their difficult struggle. However, even the strongest X's could not serve forever: three died, the fourth disappeared, the only Alatus continues his patrol.</h6>
+                <h4>The Archon War in Inazuma</h4>
+                <h6>Approximately 2000 before GE: The twin goddesses Raiden Makoto (Baal) and Raiden Hey (Beelzebub) defeat all the other gods in Inazuma. Despite the fact that Ei fought well, she considered herself only a warrior who understood little about the souls of people. For this reason, she sacrificed her bodily form so that Makoto ascended to Celestia and became an Electro Archon. After the first Shogun Raiden received the divine throne, founded the shogunate and began her reign, she summoned the divine essence of her sister, recreated her body for her and made her her "shadow samurai" - "kagemusya".</h6>
+                <h4>The End of The Archon War</h4>
+                <h6>2000 years before G. E. : After the centuries-old wars, only seven Archons remained out of the multitude. They divided the lands and built states that still exist today. However, in the world of Teivat, even the Gods are mortal, and the composition of the Seven has changed more than once over two thousand years. Only Geo and Anemo Archons have remained the same since those times. Those gods who could not come to terms with the orders of the Seven fled across the Dark Sea – to distant islands where recognized Archons have no power.</h6>
+              </div>
+              <div class="container-fluid text-start mt-5">
+                <h1 style="margin-left: 10px;">Sibling's Journey</h1>  
+                <hr class="featurette-divider">
+                  <p style="display: flex; justify-content: center;">
+                    <img style="width: 100%; 
+                  height: 330px; 
+                  object-fit: cover; 
+                  object-position: bottom;
+                  max-width: 640px; " src="./resoures/images/95a15-16635899398775-1920.avif " alt="fanet">
+                  </p>
+                  <h4>The fight against Unknown God</h4>
+                  <h6>
+                    Aether and Lumine fall to Teyvat while traveling between different worlds after their home world was destroyed. They crash-land and fall unconscious from their "meteorite" impact.                  </h6>
+                    <h6>The twins attempt to leave immediately, only to be stopped by the Unknown God. The twins battle against the Unknown God in last-resort attempt to leave, spawning wings and custom swords. The twins lose the fight, with the Unknown God trapping the Traveler's sibling first within a cube, and then the Traveler after they attempt to free their sibling. The Traveler falls asleep within the cubes once again for the next 500 years.</h6>
+                  <h4>After fight</h4>
+                  <h6>The Traveler's sibling wakes up first and learned more about Teyvat. The sibling witnesses the cataclysm and the Gods destroying Khaenri'ah. They rush back to their impact-point and wake up The Traveler, showing them the destruction that's being wrought in Khaenri'ah</h6>
+                  <h6>Due to the Traveler's sibling's journey with Dainsleif taking place after the cataclysm, it is presumed that the sibling here has only briefly explored Teyvat before encountering the cataclysm</h6>
+                </div>
+                <div class="container-fluid text-start mt-5">
+                  <h1 style="margin-left: 10px;">Khaenri-ah Cataclysm</h1>  
+                  <hr class="featurette-divider">
+                    <p style="display: flex; justify-content: center;">
+                      <img style="width: 100%; 
+                    height: 330px; 
+                    object-fit: cover; 
+                    object-position: bottom;
+                    max-width: 640px; " src="./resoures/images/maxresdefault (1).jpg" alt="fanet">
+                    </p>
+                    <h4>Pre-Cataclysm</h4>
+                    <h6>  
+                      ? years ago ― Pierro is unable to stop the ruler of Khaenri'ah or the sages from "tearing away the veil of sin." This results in Khaenri'ah's destruction at the hands of the Heavenly Principles </h6>                    <h4>The Cataclysm</h4>
+                    <h6>Monsters from the Abyss invade the aboveground world of Teyvat, causing widespread devastation.
+                      The people of Teyvat attribute the creation of these monsters to a "great sinner," Gold, also known as Albedo's master and mother Rhinedottir.
+                      The Kingdom of Khaenri'ah is destroyed by the Heavenly Principles, causing the fall of the Eclipse Dynasty and the entire civilization. Khaenri'ah's destruction causes a devastating ripple effect.
+                      The Seven become involved in Khaenri'ah after the Abyss' invasion of Teyvat</h6>
+                  </div> 
+                  <div class="container-fluid text-start mt-5">
+                    <h1 style="margin-left: 10px;">Nowadays</h1>  
+                    <hr class="featurette-divider">
+                      <p style="display: flex; justify-content: center;">
+                        <img style="width: 100%; 
+                      height: 330px; 
+                      object-fit: cover; 
+                      object-position: bottom;
+                      max-width: 640px; " src="./resoures/images/maxresdefault (2).jpg" alt="fanet">
+                      </p>
+                      <h4>Now, the main character is travelling Teyvat and help the creatures of this land. </h4>
+                    </div> 
+          </div>
+          <div class="col-sm-1 sidenav"
+          style="background-image: url(/resoures/images/1161810.jpg); background-attachment: fixed; background-repeat: repeat-y; background-position: right; background-size: contain;">
+        </div>
+        </div>
+        
+  </div>
+  </main> 
+  <footer class="text-center text-lg-start text-white" style="background-color: rgb(51, 51, 51)">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Games</h6>
+            <p>
+              <a class="text-white">Honkai Impact 3rd</a>
+            </p>
+            <p>
+              <a class="text-white">Honkai Starrail</a>
+            </p>
+            <p>
+              <a class="text-white">Tears of Themis</a>
+            </p>
+            <p>
+              <a class="text-white">Zenless Zone Zero</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white" href="https://genshin-impact.fandom.com/wiki/Genshin_Impact">Genshin Impact Wiki</a>
+            </p>
+            <p>
+              <a class="text-white" href="https://genshin-impact.fandom.com/wiki/Lore">Lore Wiki</a>
+            </p>
+            <p>
+              <a class="text-white" href="https://genshin-impact.fandom.com/wiki/Soundtrack">SoundTracks Wiki</a>
+            </p>
+          </div>
+          <hr class="w-100 clearfix d-md-none" />
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Astana, AS 10012, KZ</p>
+            <p><i class="fas fa-envelope mr-3"></i> zhalgas.karsenbai@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 7 7087323221</p>
+            <p><i class="fas fa-print mr-3"></i> + 7 7784624185</p>
+          </div>
+        </div>
+      </section>
+      <hr class="my-3">
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2023 Copyright: Karsenbay Zhalgas
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="https://github.com/jksenby"><i
+                class="fab fa-github"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button" href="www.linkedin.com/in/jksenby
+            "><i
+                class="fab fa-linkedin"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>  
+    </footer>
+  <script src="/js/jquery-3.7.1.min.js"></script>
+  <script src="/js/lore.js"></script>
+  <script type="text/javascript"
+    src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_6.4.2/js/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  </body>
+</html>
