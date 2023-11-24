@@ -60,6 +60,9 @@ body {
   background-size: cover;
   background-color: var(--white) !important;
 }
+a {
+  color: black !important;
+}
 /* Пример стилей для поискового поля и результатов поиска */
 #searchInput {
   width: 300px;
@@ -181,7 +184,7 @@ body {
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("/resoures/images/traveler-genshin-impact-mondstadt-hd-wallpaper-preview.jpg");
+  background-image: url("./resoures/images/traveler-genshin-impact-mondstadt-hd-wallpaper-preview.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,7 +192,7 @@ body {
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url('/resoures/images/f79df798f0f6493919d1c5c20263614b.png');
+  background-image: url('./resoures/images/f79df798f0f6493919d1c5c20263614b.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -197,14 +200,14 @@ body {
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url('/resoures/images/1161810.jpg');
+  background-image: url('./resoures/images/1161810.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
 }
 
 .carousel-item:nth-child(4) {
-  background-image: url('/resoures/images/1271321.jpg');
+  background-image: url('./resoures/images/1271321.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
